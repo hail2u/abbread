@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width" name="viewport">
+
+    <title>Abbread - Spread ABBR titling</title>
+
+    <script defer src="../dist/abbread.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Abbread - Spread ABBR titling</h1>
+
+      <p>This small JavaScript library spreads a <code>title</code> attibute of an <code>abbr</code> element.</p>
+    </header>
+
+    <section class="example">
+      <h1>Example</h1>
+
+      <p>From:</p>
+
+      <pre><code class="language-html">&lt;p&gt;The <mark>&lt;abbr title=&quot;Web Hypertext Application Technology Working Group&quot;&gt;WHATWG
+&lt;/abbr&gt;</mark> has a small, invitation-only oversight committee called &quot;Members&quot;, which
+has the power to impeach the editor of the specifications.
+Anyone can participate as a Contributor by joining the <mark>&lt;abbr&gt;WHATWG&lt;/abbr&gt;</mark>
+mailing list.&lt;/p&gt;
+</code></pre>
+
+      <p>To:</p>
+
+      <pre><code class="language-html">&lt;p&gt;The <mark>&lt;abbr title=&quot;Web Hypertext Application Technology Working Group&quot;&gt;WHATWG
+&lt;/abbr&gt;</mark> has a small, invitation-only oversight committee called &quot;Members&quot;, which
+has the power to impeach the editor of the specifications.
+Anyone can participate as a Contributor by joining the <mark>&lt;abbr title=&quot;Web
+Hypertext Application Technology Working Group&quot;&gt;WHATWG&lt;/abbr&gt;</mark> mailing list.&lt;/p&gt;
+</code></pre>
+    </section>
+
+    <section class="test">
+      <h1>Test</h1>
+
+      <p>Elit voluptate <abbr title="Foo Bar Baz">FBB</abbr> ad et duis ex qui voluptate eiusmod dolor non. Aliqua culpa duis aute occaecat tempor ad officia ad aute <abbr title="Qux Quux Corge Grault">QQCG</abbr> laborum deserunt esse. Adipisicing <abbr>QQCG</abbr> quis <abbr>FBB</abbr> exercitation sit sit labore anim laboris fugiat pariatur ullamco do <abbr>FBB</abbr> mollit irure consectetur. Irure non elit elit adipisicing nulla culpa officia et amet. Exercitation officia ipsum <abbr>QQCG</abbr> nisi velit pariatur.</p>
+    </section>
+
+    <footer>
+      <p>© 2016 Kyo Nagashima</p>
+    </footer>
+  </body>
+</html>
