@@ -24,7 +24,7 @@
     "url": "git+https://github.com/hail2u/abbread.git"
   },
   "scripts": {
-    "build": "uglifyjs -o dist/abbread.js src/abbread.js",
+    "build": "uglifyjs -o dist/abbread.js src/abbread.js && cp dist/abbread.js docs/js/abbread.js",
     "test": "open docs/index.html"
   }
 }
