@@ -1,0 +1,30 @@
+{
+  "name": "abbread",
+  "description": "Spreads a `title` attribute of an `abbr` element",
+  "version": "0.0.0",
+  "author": "Kyo Nagashima <hail2u@gmail.com> (https://kyonagashima.com/)",
+  "bugs": {
+    "url": "https://github.com/hail2u/abbread/issues"
+  },
+  "devDependencies": {
+    "uglify-js": "^2.7.3"
+  },
+  "directories": {
+    "doc": "docs"
+  },
+  "homepage": "https://github.com/hail2u/abbread#readme",
+  "keywords": [
+    "abbr",
+    "html"
+  ],
+  "license": "MIT",
+  "main": "src/abbread.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hail2u/abbread.git"
+  },
+  "scripts": {
+    "build": "uglifyjs -o dist/abbread.js src/abbread.js",
+    "test": "open docs/index.html"
+  }
+}
