@@ -32,12 +32,13 @@ Love hover.
 USAGE
 -----
 
-Put `dist/abbread.js` into your HTML document.
+Put `dist/abbread.js` into `head` element of your HTML document.
 
 ```html
 <script defer src="/js/abbread.js"></script>
 ```
 
+Don’t forget `defer` attribute!
 
 
 LICENSE
