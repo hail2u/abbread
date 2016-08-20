@@ -1,5 +1,5 @@
 {
-  "name": "abbread",
+  "name": "@hail2u/abbread",
   "description": "Spreads a `title` attribute of an `abbr` element",
   "version": "0.1.0",
   "author": "Kyo Nagashima <hail2u@gmail.com> (https://kyonagashima.com/)",
