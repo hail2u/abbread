@@ -44,4 +44,4 @@ Don’t forget `defer` attribute!
 LICENSE
 -------
 
-MIT: http://hail2u.mit-license.org/2016
+MIT
