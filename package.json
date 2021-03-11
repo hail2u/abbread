@@ -2,7 +2,7 @@
   "name": "@hail2u/abbread",
   "description": "Spreads a `title` attribute of an `abbr` element",
   "version": "0.1.1",
-  "author": "Kyo Nagashima <hail2u@gmail.com> (https://kyonagashima.com/)",
+  "author": "Kyo Nagashima <hail2u@gmail.com> (https://hail2u.net/)",
   "bugs": {
     "url": "https://github.com/hail2u/abbread/issues"
   },
